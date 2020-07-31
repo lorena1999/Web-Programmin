@@ -1,0 +1,72 @@
+table
+{
+	width: 1200px;
+}
+
+th, caption
+{
+	text-align: left;
+}
+
+img
+{
+	width: 100%;
+}
+
+caption
+{
+	font-size: 25px;
+	padding-bottom: 20px;
+}
+
+table, th, td
+{
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+td
+{
+	width: 20%;
+}
+
+tr
+{
+	font-size: 30px;
+}
+
+th, td
+{
+	padding: 10px;
+}
+tr:nth-child(even)
+{
+	background-color: #fff;
+}
+
+tr:nth-child(odd)
+{
+	background-color: #ddd;
+}
+
+.backbtn
+{
+	font-size: 18px;
+	background-color: #f70cf0;
+	color: white;
+	border-color: #f70cf0;
+	margin-top: 10px;
+}
+
+.removebtn
+{
+	background-color: red;
+	border-color: red;
+	font-size: 20px;
+	color: white;
+}
+
+p
+{
+	font-size: 40px;
+}

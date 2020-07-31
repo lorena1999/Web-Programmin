@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="WebApp:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/WebApp_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="WebApp/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="WebApp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql:mysql-connector-java:8.0.20" />
+          <element id="library" level="project" name="com.jcabi:jcabi-mysql-maven-plugin:0.9" />
+          <element id="library" level="project" name="com.fatboyindustrial.gson-javatime-serialisers:gson-javatime-serialisers:1.1.1" />
+        </element>
+      </element>
+      <element id="library" level="project" name="mysql:mysql-connector-java:8.0.20" />
+      <element id="library" level="project" name="com.jcabi:jcabi-mysql-maven-plugin:0.9" />
+      <element id="library" level="project" name="com.fatboyindustrial.gson-javatime-serialisers:gson-javatime-serialisers:1.1.1" />
+    </root>
+  </artifact>
+</component>
